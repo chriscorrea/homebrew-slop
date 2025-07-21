@@ -6,4 +6,6 @@ Homebrew tap for [slop](https://github.com/chriscorrea/slop).
 
 ```bash
 brew tap chriscorrea/slop
-brew install slop```
+
+brew install slop
+```
