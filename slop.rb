@@ -11,7 +11,7 @@ class Slop < Formula
   on_macos do
     on_intel do
       url "https://github.com/chriscorrea/slop/releases/download/v0.2.0/slop_0.2.0_darwin_amd64.tar.gz"
-      sha256 "d056217a623e1acba4ac9079a3f78b0bd38d1b79e2069fadc95a34d6830d1294"
+      sha256 "064d29a6f2008724734454bb78319bba43a95f2d4ed64b9d9c2c8f3670f8ba8b"
 
       def install
         bin.install "slop"
@@ -20,7 +20,7 @@ class Slop < Formula
     end
     on_arm do
       url "https://github.com/chriscorrea/slop/releases/download/v0.2.0/slop_0.2.0_darwin_arm64.tar.gz"
-      sha256 "91c24aa2de77512ba62ba9cd3973f429634e49144530e818043733479e3863fc"
+      sha256 "d58bc6b16b6bc087536ec1e9101f228f88123e9b55ac05d6259b32a8f92a046b"
 
       def install
         bin.install "slop"
@@ -33,7 +33,7 @@ class Slop < Formula
     on_intel do
       if Hardware::CPU.is_64_bit?
         url "https://github.com/chriscorrea/slop/releases/download/v0.2.0/slop_0.2.0_linux_amd64.tar.gz"
-        sha256 "eeb916aee6446dcb041a0150ae9afb0d3683d784c6387f8c27b7633c0e066863"
+        sha256 "24c4db6203866dc1cbb802f9b931c19dd8a35b73bed2064915e3ef6a3dd16072"
 
         def install
           bin.install "slop"
@@ -44,7 +44,7 @@ class Slop < Formula
     on_arm do
       if Hardware::CPU.is_64_bit?
         url "https://github.com/chriscorrea/slop/releases/download/v0.2.0/slop_0.2.0_linux_arm64.tar.gz"
-        sha256 "cdc3d8c74e4ec5a750fd147c2709de0fcbf88e0e403c9886bcb753ad1b3fac33"
+        sha256 "931398de9ca9c5f5fde595f20753dabb1ab327efc52a4531f308ed612ef58138"
 
         def install
           bin.install "slop"
