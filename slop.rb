@@ -5,13 +5,13 @@
 class Slop < Formula
   desc "Build LLM workflows on the command line"
   homepage "https://github.com/chriscorrea/slop"
-  version "0.1.2"
+  version "0.2.0"
   license "BSD-3-Clause"
 
   on_macos do
     on_intel do
-      url "https://github.com/chriscorrea/slop/releases/download/v0.1.2/slop_0.1.2_darwin_amd64.tar.gz"
-      sha256 "1f362a47d226c9ea90a4ebc89b696c2e570f20ad6bda560565f3cf1b7f58748e"
+      url "https://github.com/chriscorrea/slop/releases/download/v0.2.0/slop_0.2.0_darwin_amd64.tar.gz"
+      sha256 "d056217a623e1acba4ac9079a3f78b0bd38d1b79e2069fadc95a34d6830d1294"
 
       def install
         bin.install "slop"
@@ -19,8 +19,8 @@ class Slop < Formula
       end
     end
     on_arm do
-      url "https://github.com/chriscorrea/slop/releases/download/v0.1.2/slop_0.1.2_darwin_arm64.tar.gz"
-      sha256 "71fae58b33bcfdb163cde4a32e72cbc49f356525893537067c354a134391a24e"
+      url "https://github.com/chriscorrea/slop/releases/download/v0.2.0/slop_0.2.0_darwin_arm64.tar.gz"
+      sha256 "91c24aa2de77512ba62ba9cd3973f429634e49144530e818043733479e3863fc"
 
       def install
         bin.install "slop"
@@ -32,8 +32,8 @@ class Slop < Formula
   on_linux do
     on_intel do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/chriscorrea/slop/releases/download/v0.1.2/slop_0.1.2_linux_amd64.tar.gz"
-        sha256 "f3506389bd2c277c281e50c06b27d589cd1c80d718ccc2f8d6909416d98c0624"
+        url "https://github.com/chriscorrea/slop/releases/download/v0.2.0/slop_0.2.0_linux_amd64.tar.gz"
+        sha256 "eeb916aee6446dcb041a0150ae9afb0d3683d784c6387f8c27b7633c0e066863"
 
         def install
           bin.install "slop"
@@ -43,8 +43,8 @@ class Slop < Formula
     end
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/chriscorrea/slop/releases/download/v0.1.2/slop_0.1.2_linux_arm64.tar.gz"
-        sha256 "dbd1d19a002585a0d28706814f5e969880e0d9536b872e32786f92a0bcdda709"
+        url "https://github.com/chriscorrea/slop/releases/download/v0.2.0/slop_0.2.0_linux_arm64.tar.gz"
+        sha256 "cdc3d8c74e4ec5a750fd147c2709de0fcbf88e0e403c9886bcb753ad1b3fac33"
 
         def install
           bin.install "slop"
